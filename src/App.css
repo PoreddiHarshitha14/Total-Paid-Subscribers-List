@@ -57,13 +57,13 @@
 .subscriber-form {
   max-width: 1200px;
   color: transparent;
-  background-color: #dde8f4;
+  background-color: #fff;
   border-left: 4px solid #0000c6;
   padding: 2rem;
   margin-left: 96px;
   margin-top: 50px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.117);
   margin-bottom: 2rem;
   animation: fadeIn 1s ease-out;
 }
@@ -106,6 +106,8 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   font-size: 1rem;
+  color: black;
+  font-weight: 400;
   transition: all 0.3s ease;
 }
 
@@ -113,6 +115,7 @@
 .form-group select:focus {
   border-color: #6e8efb;
   box-shadow: 0 0 0 3px rgba(110, 142, 251, 0.2);
+  color: #000;
   outline: none;
 }
 
@@ -125,7 +128,7 @@
   left: 12px;
   top: 69%;
   transform: translateY(-50%);
-  color: #8b8c8d;
+  color: #6e6e6e;
   font-size: 1.1rem;
   pointer-events: none;
 }
